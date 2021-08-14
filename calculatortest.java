@@ -14,8 +14,10 @@ class calculatortest {
 		assertEquals(6,calc.add("6"));
 	    assertEquals(3,calc.add("1,2"));
 	    assertEquals(6,calc.add("1,5"));
-	  
+	    assertEquals(12,calc.add("1,5,6"));
+	    assertEquals(12,calc.add("1,3,8"));
 		
 	}
 
 }
+
