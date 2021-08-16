@@ -8,7 +8,7 @@ public class StringCalculator {
 			return 0;
 		}
 		
-		String[] s = number1.split(",");
+		String[] s = number1.split("[\n|,]");
 		int sum=0;
 		for(int i=0;i<s.length;i++) {
 			sum+=Integer.parseInt(s[i]);
